@@ -1,0 +1,8 @@
+{
+  "name": "drive-download-20201203T182937Z-001",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "discord.js": "^12.5.1"
+  }
+}

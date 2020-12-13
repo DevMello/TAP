@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <style>
+        ul .nav-item {
+            margin-right: 2rem;
+        }
+
+        .card-img-top {
+            width: 17.85em;
+            height: 13em;
+            border-bottom: 1px solid rgba(0,0,0,.125);
+        }
+
+        .col-sm .card {
+            width: 18rem;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 2rem;
+        }
+
+    </style>
+    <title>TAP - Home</title>
+  </head>
+  <body onload=getusername()>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="float-left" style="width: 50px; margin-right: auto; margin-left: 1rem;"><a class="navbar-brand">TAP</a></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="game.html">Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="MelloCord/index.html">Friends</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container" style="margin-top: 2rem;">
+        <div class="jumbotron">
+            <div class="display-4" id="title"></div>
+            <p class="lead">Here are some games for you to try</p>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <img src="Battlesnake.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Battle Snake</h5>
+                      <p class="card-text">Ever wanted to destroy tiny green pixelated blobs with a blue pixelated snake? Well here is your chance at it! Try to get as many points as possible without dying. And uh, try not to hit the walls.</p>
+                      <a href="snakegame.html" class="btn btn-primary">Go to game >></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="HangMan.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Hangman</h5>
+                      <p class="card-text">The point of Hangman is to guess the word before you become a, you guessed it, Hangman.</p>
+                      <a href="hangman.html" class="btn btn-primary">Go to game >></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="BotDestroyer.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Bot Destroyer</h5>
+                      <p class="card-text">Collect weapons, use your jetpack, don't die, and DESTROY THE BOTS!!! The controls are WASD or arrow keys. If you need more help then that refer to the controls panel in game. If you need it tutorial below.</p>
+                      <a href="BOTDESTROYER/index.html" class="btn btn-primary">Go to game >></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    <input type="button" value="message"  onclick="message();"/>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+     <!--Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+    
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> -->
+    <script src="script.js"></script> 
+  </body>
+</html>
