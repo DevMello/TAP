@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "bootstrap": "^4.5.3",
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1"
   }
 }
