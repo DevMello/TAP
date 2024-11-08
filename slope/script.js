@@ -1,5 +1,5 @@
 let quickHideEnabled = true;
-let location = "https://pms-scusd-ca.schoolloop.com/portal/login";
+let locationChange = "https://google.com";
 document.addEventListener('keydown', function(event) {
 console.log(event)
 if((event.key == "q" || event.key == "Q") && event.altKey) {
@@ -7,7 +7,7 @@ if((event.key == "q" || event.key == "Q") && event.altKey) {
   quickHideEnabled = !quickHideEnabled
 } else if ((event.key == "q" || event.key == "Q") && quickHideEnabled == true) {
   document.write()
-  window.location = location
+  window.location = locationChange
 }
 })
 
